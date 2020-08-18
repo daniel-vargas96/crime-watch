@@ -5,6 +5,9 @@ A mobile application for people who want to monitor crime activity. Crime-Watch 
 ![Live Demo](/server/public/images/preview.gif)
 
 ##  Technologies Used:
+* HTML5
+* CSS3
+* Bootstrap 4
 * React.js
 * Node.js
 * Express
