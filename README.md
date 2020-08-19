@@ -2,7 +2,7 @@
 A mobile application for people who want to monitor crime activity. Crime-Watch utilizes data from two public APIs to create a full-stack application that allows users to monitor crime rates in major cities. The two APIs used during the project consisted of *Crimeometer* and *Google Maps API*.
 
 ## Live Demo: <a href="http://crimewatch.danielvargas.tech/" target="_blank">Crime-Watch</a>
-![Live Demo](/server/public/images/preview.gif)
+![crime-watch](./demo.gif "Demo")
 
 ##  Technologies Used:
 * HTML5
