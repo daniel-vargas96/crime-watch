@@ -34,5 +34,40 @@ A mobile application for people who want to monitor crime activity. Crime-Watch 
 * User can follow other user
 * User can report a crime
 
+## Development
+
+### System Requirements
+
+- Node.js 10 or higher
+- npm 6 or higher
+- PostgreSQL
+
+### Getting Started
+
+1. Clone the repository:
+    ```shell
+    git clone https://github.com/felix-chin/crime-watch
+    cd crime-watch
+    ```
+2. Install npm dependencies:
+    ```shell
+    npm install
+    ```
+3. Start PostgreSQL:
+
+   Command if using Linux:
+    ```shell
+    sudo service postgresql start
+    ```
+4. Import the example database to PostgreSQL:
+    ```shell
+    npm run db:import
+    ```
+5. Start the application:
+    ```shell
+    npm run dev
+    ```
+6. Visit http://localhost:3000 in your browser to view the application.
+
 ## Takeaways From this Project:
 Throughout the development of **Crime-Watch**, I was able to takeaway a great deal of knowledge and information. While working on **Crime-Watch**, I sharpened my full-stack skills by working with *React.js*, *Node.js*, *Express*, and *PostgreSQL*. Utilizing the *Agile Methodology*, myself, and two other developers worked efficiently together in order to complete a Minimum Viable Product within our two week period. One of the many challenges overcome throughout the development of this project was creating a dynamically rendering map with each new search made by a user. This was made possible by implementing a geocoder into the input field within the search. Once the search was submitted, coordinates of that city were saved and set to the state of entire app. This allowed for the coordinates to be passed into the map feature as a prop, and ultimately implemented as the center of the map at it's initialization. Overall, **Crime-Watch** tested my ability to create a functioning Full-Stack application and has greatly strengthened my skills as a Software Engineer.
