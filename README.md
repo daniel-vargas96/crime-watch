@@ -12,6 +12,9 @@ A mobile application for people who want to monitor crime activity. Crime-Watch 
 * Node.js
 * Express
 * PostgreSQL
+* AWS EC2
+* Webpack 4
+* Babel
 
 ## Current Feature List:
 * User can view single incident crime details
