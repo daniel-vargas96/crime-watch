@@ -1,43 +1,41 @@
-# crime-watch
+# **Crime-Watch**
+A mobile application for people who want to monitor crime activity. Crime-Watch utilizes data from two public APIs to create a full-stack application that allows users to monitor crime rates in major cities. The two APIs used during the project consisted of *Crimeometer* and *Google Maps API*.
 
-A full stack mobile application for people who want to view and monitor crime activity. 
-
-This application utilizes [crimeometer](https://www.crimeometer.com), an API that provides raw crime data, and [Google Maps](https://developers.google.com/maps/documentation).
-
-## Live Demo
-
-Link to a live demo of the application: 
-
-https://crime-watch.felixchin.com
-
-Best viewed in iPhone 6/7/8.
-
-## Technologies Used
-
-- React.js
-- Node.js
-- PostgreSQL
-- Express
-- webpack
-- Babel
-- Bootstrap 4
-- HTML5
-- CSS3
-- AWS EC2
-
-## Features
-
-- User can search for crime rates by city.
-- User can view crime incidents plotted on a map.
-- User can view a crime heatmap.
-- User can view a list of crime incidents organized by crime type.
-- User can view a detailed description of a crime incident.
-- User can bookmark specific crime incidents.
-- User can view a list of searches saved to a search history page.
-
-## Preview
-
+## Live Demo: <a href="http://crimewatch.danielvargas.tech/" target="_blank">Crime-Watch</a>
 ![crime-watch](./demo.gif "Demo")
+
+##  Technologies Used:
+* HTML5
+* CSS3
+* Bootstrap 4
+* React.js
+* Node.js
+* Express
+* PostgreSQL
+* AWS EC2
+* Webpack 4
+* Babel
+
+## Current Feature List:
+* User can view single incident crime details
+* User can set a default location
+* User can search crime rates by location
+* User can view crime incidents plotted on a map
+* User can view overall crime statistics for a location
+* User can click on an incident on the map to view details of that incident
+* User can view crime details for a specific crime statistic
+* User can view a heatmap
+* User can compare overall crime statistics for two locations
+* User can login to an account
+* User can bookmark an incident
+* User can view search history
+* User can view profile page
+
+## Planned Additions:
+* User can filter for different types of crimes on a map
+* User can receive notifications when a new crime has been reported nearby
+* User can follow other user
+* User can report a crime
 
 ## Development
 
@@ -73,3 +71,6 @@ Best viewed in iPhone 6/7/8.
     npm run dev
     ```
 6. Visit http://localhost:3000 in your browser to view the application.
+
+## Takeaways From this Project:
+Throughout the development of **Crime-Watch**, I was able to takeaway a great deal of knowledge and information. While working on **Crime-Watch**, I sharpened my full-stack skills by working with *React.js*, *Node.js*, *Express*, and *PostgreSQL*. Utilizing the *Agile Methodology*, myself, and two other developers worked efficiently together in order to complete a Minimum Viable Product within our two week period. One of the many challenges overcome throughout the development of this project was creating a dynamically rendering map with each new search made by a user. This was made possible by implementing a geocoder into the input field within the search. Once the search was submitted, coordinates of that city were saved and set to the state of entire app. This allowed for the coordinates to be passed into the map feature as a prop, and ultimately implemented as the center of the map at it's initialization. Overall, **Crime-Watch** tested my ability to create a functioning Full-Stack application and has greatly strengthened my skills as a Software Engineer.
