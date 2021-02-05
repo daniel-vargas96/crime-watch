@@ -49,7 +49,7 @@ A mobile application for people who want to monitor crime activity. Crime-Watch 
 
 1. Clone the repository:
     ```shell
-    git clone https://github.com/felix-chin/crime-watch
+    git clone https://github.com/daniel-vargas96/crime-watch
     cd crime-watch
     ```
 2. Install npm dependencies:
